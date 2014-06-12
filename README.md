@@ -1,5 +1,6 @@
 romu
 ====
+Authors: Shuai Li, Andrew Berberick
 
 Android software for haptic navigation.
 
