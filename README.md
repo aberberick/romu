@@ -4,6 +4,7 @@ romu
 Android software for haptic navigation.
 
 Overview
+
 The Romu app is trying to combine the hardware power of the smartphone, the Google API, and an easy-to-use interface for users to view the surrounding map, find out where they are and set their destination to go. 
 From a software engineering perspective, it consists of three main parts, including the User Interface, the Romu Service, which is a service that is in charge of background processing of all the services that are 
 related navigation, and lastly, bluetooth service, which is used by Romu Service to utilize bluetooth low energy technology to communicate with another important part of Romu, the wearable.
