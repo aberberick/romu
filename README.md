@@ -57,6 +57,10 @@ If a user pauses navigation, the system keeps track of where the user last was a
 
 
 
+BluetoothLEService
+
+The BluetoothLE service is the interface between the Android software and the Romu firmware. It handles the bluetooth connection and the RomuService writes navigation updates to the device through this service. It’s lifecycle is tied to the romuservice. It uses the Bluetooth Low Engergy API provided by Android. When it is started, it will automatically try to connect the firmware for two ￼seconsd. Once connected, the disconnection and reconnection is handled. The interface between Romu Service and BluetoothLE is similiar with Romu UI and Romu Service.
+In addition to writing location updates to the wearable device, the BluetoothLE service also listens for feedback from the device in the form of “tap-to-pause” and “tap-to-start.”
 
 
 
